@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-color: #f59595;
+    padding: 20px;
+    box-shadow: 4px 4px 8px #000000;
+    margin: 25px;
+
+}
+
+.profile-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.profile-logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-icon {
+    padding: 10px;
+    border: 3px solid #1d0845;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #1d0845;
+}
+
+.profile-text {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+@media screen and (min-width: 768px) {
+    .profile-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .profile-text {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+.profile-inner-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.profile-details-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-director-container {
+    width: 50%;
+}
+
+.director-heading {
+    font-weight: 600;
+    margin-top: 0px;
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.director-text {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.vr-line-container {
+    display: flex;
+
+}
+
+.vr-line {
+    height: 100%;
+    border: 2.2px solid #1d0845;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 576px) {
+    .director-heading {
+        font-size: 16px;
+    }
+
+    .bg-container {
+        overflow: auto;
+    }
+
+    .profile-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .director-text {
+        font-size: 12px;
+    }
+
+    .vr-line {
+        margin-left: 20px;
+    }
+
+    .profile-director-container {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .director-heading {
+        font-size: 30px;
+    }
+
+    .director-text {
+        font-size: 16px;
+    }
+
+    .vr-line {
+        margin-left: 50px;
+    }
+
+    .bg-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+.director-description-container {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.director-description {
+    margin-top: 0px;
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+}
+
+.director-address {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .director-description {
+        font-size: 12px;
+    }
+
+    .director-address {
+        font-size: 12px;
+    }
+
+    .director-description-container {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .director-description {
+        font-size: 13px;
+    }
+
+    .director-address {
+        font-size: 13px;
+        margin-bottom: 40px;
+    }
+}
+
+.hr-line {
+    margin-top: 0px;
+    border: 2.2px solid #1d0845;
+}
+
+
+/*work part */
+.work-container {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.work-logo {
+    padding: 10px;
+    border: 3px solid #1d0845;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #1d0845;
+}
+
+@media screen and (min-width: 768px) {
+    .work-logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    .profile-text {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+.work-inner-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.work-description-container {
+    display: flex;
+    width: 100%;
+}
+
+.year-text {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 10px;
+    width: 20%;
+    margin-right: 20px;
+}
+
+.work-details-container {
+    width: 50vw;
+}
+
+.work-heading {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+}
+
+.work-description {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.hr-line2 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 2.2px solid #1d0845;
+}
+
+@media screen and (max-width: 576px) {
+    .work-logo {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .year-text {
+        font-size: 15px;
+    }
+
+    .work-description {
+        font-size: 15px;
+    }
+
+    .work-description {
+        font-size: 15px;
+    }
+}
+
+/*Skills and Awards Part */
+.skills-award-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.skills-award-icon-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.clipboard-icon {
+    padding: 10px;
+    border: 3px solid #1d0845;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #1d0845;
+}
+
+.skills-text {
+    align-self: center;
+    font-family: "Roboto";
+    text-align: center;
+    color: #1d0845;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 70px;
+}
+
+@media screen and (max-width: 576px) {
+    .clipboard-icon {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .clipboard-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .profile-text {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+
+.skills-inner-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.skill-details-container {
+    display: flex;
+
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.each-rating-container {
+    display: flex;
+}
+
+.rating-text {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.dots-container1 {
+    display: flex;
+    margin-left: 81px;
+    margin-top: 2px;
+    width: 50%;
+}
+
+.dots-container2 {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 2px;
+    width: 50%;
+}
+
+.dots-container3 {
+    display: flex;
+    margin-left: 51px;
+    margin-top: 2px;
+    width: 50%;
+}
+
+.dots-container4 {
+    display: flex;
+    margin-left: 33px;
+    margin-top: 2px;
+    width: 50%;
+}
+
+.dots-container5 {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 2px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.dot-icon {
+    padding: 0px;
+    margin: 0px;
+    color: #1d0845;
+    background-color: #1d0845;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.vr-line-container2 {
+    height: 100%;
+    display: flex;
+    margin-top: 0px;
+}
+
+.vr-line2 {
+    height: 100%;
+    border: 2.2px solid #1d0845;
+    margin-left: 20px;
+    margin-top: -11px;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 645px) {
+    .dots-container1 {
+        margin-left: 65px;
+    }
+
+    .dots-container3 {
+        margin-left: 37px;
+    }
+
+    .dots-container5 {
+        margin-left: 41px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .dots-container1 {
+        margin-left: 60px;
+    }
+
+    .dots-container3 {
+        margin-left: 30px;
+    }
+
+    .dots-container5 {
+        margin-left: 27px;
+    }
+}
+
+.award-description-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.award-description-inner-container {
+    display: flex;
+    margin-left: 15px;
+}
+
+.award-year-text {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.award-heading {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.award-type {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.hr-line3 {
+    width: 100%;
+    margin-top: -9px;
+    margin-bottom: 0px;
+    border: 2.2px solid #1d0845;
+}
+
+.interests-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.interests-logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bulb-icon {
+    padding: 10px;
+    border: 3px solid #1d0845;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #1d0845;
+}
+
+.interests-text {
+    align-self: center;
+    font-family: "Roboto";
+    text-align: center;
+    color: #1d0845;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.interests-inner-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.interests-icons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.each-icon-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.interest-icons {
+    padding: 10px;
+    border: 3px solid #1d0845;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #1d0845;
+    color: #f59595;
+    align-self: center;
+}
+
+.interests-text {
+    font-family: "Roboto";
+    text-align: center;
+    color: #1d0845;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.hr-line4 {
+    margin-left: 10px;
+    border: 2.2px solid #1d0845;
+}
+
+@media screen and (max-width: 576px) {
+    .bulb-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .each-icon-container {
+        margin-left: 10px;
+    }
+
+    .interest-icons {
+        height: 40px;
+        width: 40px;
+    }
+
+    .interests-inner-container {
+        margin-left: 60px;
+    }
+
+    .hr-line4 {
+        margin-left: -35px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bulb-icon {
+        height: 80px;
+        width: 80px;
+    }
+
+    .interest-icons {
+        height: 70px;
+        width: 70px;
+    }
+
+    .interests-text {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .hr-line4 {
+        margin-left: 10px;
+    }
+}
+
+
+/*Education */
+.education-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.education-logo {
+    padding: 10px;
+    border: 3px solid #1d0845;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: #1d0845;
+}
+
+.education-text {
+    align-self: center;
+    font-family: "Roboto";
+    text-align: center;
+    color: #1d0845;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.education-inner-container {
+    margin-left: 30px;
+    width: 100%;
+}
+
+.education-details-container {
+    display: flex;
+}
+
+.education-year {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+    margin-right: 20px;
+    width: 20%;
+}
+
+.college-details-container {
+    width: 100%;
+}
+
+.college-name {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.degree-text {
+    font-family: "Roboto";
+    color: #1d0845;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 576px) {
+    .education-logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    .education-text {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .education-logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    .education-text {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
